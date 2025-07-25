@@ -22,7 +22,7 @@ threshold = 30
 Answer:
 
 ```python
-
+df[(df > threshold).any(axis="columns")]
 ```
 
 ### Question 2
